@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+
+        <shape android:shape="ring">
+
+            <corners
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"/>
+
+            <solid android:color="#ffff00"/>
+
+            <padding
+                android:bottom="20dp"
+                android:left="20dp"
+                android:right="20dp"
+                android:top="20dp"/>
+
+        </shape>
+    </item>
+    <item >
+        <shape android:shape="rectangle">
+            <!--设置四个角的弧度,圆角背景就可在这设置-->--
+            <corners
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                />
+            <!--设置填充颜色-->--
+            <solid
+                android:color="#ffff00"/>
+            <!--内边距-->--
+            <padding
+                android:bottom="20dp"
+                android:left="20dp"
+                android:right="20dp"
+                android:top="20dp"/>
+        </shape>
+    </item>
+</selector>

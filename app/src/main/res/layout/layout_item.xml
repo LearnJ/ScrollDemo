@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_height="50dp">
+    <com.example.jiamao.uisample.CustomScrollView
+        android:id="@+id/scrollItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/left"
+            android:text="这就是个笑话"
+            />
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/right_sure"
+                android:gravity="center"
+                android:text="是的"
+                />
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:id="@+id/right_cancel"
+                android:text="NO"
+                />
+        </LinearLayout>
+
+    </com.example.jiamao.uisample.CustomScrollView>
+
+</LinearLayout>
